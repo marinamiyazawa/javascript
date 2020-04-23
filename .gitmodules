@@ -1,0 +1,3 @@
+[submodule "jquery-lesson"]
+	path = jquery-lesson
+	url = https://github.com/marinamiyazawa/javascript
