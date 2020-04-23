@@ -1,10 +1,9 @@
-var max = 100;
-var num = 1;
-var count = 0;
+var str1 = '4 + 3は'
+var str2 = '4 - 3は'
+var str3 = '4 * 3は'
+var str4 = '4 / 4は'
 
-while(num < max){
-	num = num *2;
-	count = count + 1;
-}
-
-alert('2をかけ続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+alert(str1 + (4 + 3));
+alert(str2 + (4 - 3));
+alert(str3 + (4 * 3));
+alert(str4 + (4 / 4));
